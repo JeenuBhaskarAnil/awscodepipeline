@@ -5,4 +5,4 @@ set -e
 docker pull bhaskaranil/cicd_project:latest
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 bhaskaranil/cicd_project
+docker run -d -p 5000:5000 bhaskaranil/cicd_project 
